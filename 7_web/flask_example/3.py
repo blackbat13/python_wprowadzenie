@@ -16,9 +16,9 @@ def hello_guest(name):
 @app.route("/user/<name>")
 def hello_user(name):
     if name == "admin":
-        return redirect(url_for("hello_admin"))
+        return redirect(url_for("hello_admin"))  # Przekierowujemy użytkownika na url powiązany z wybraną metodą
     else:
-        return redirect(url_for("hello_guest", name=name))
+        return redirect(url_for("hello_guest", name=name))  # Do moetody możemy także przekazać parametry
 
 
 if __name__ == "__main__":

@@ -1,8 +1,9 @@
-from flask import Flask, redirect, url_for, render_template, request
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 
+# Do szablonów http możemy także przekazywać różne parametry i zmienne
 @app.route("/")
 def index():
     return render_template("5.html", page=1)
