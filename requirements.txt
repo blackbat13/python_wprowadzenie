@@ -5,3 +5,5 @@ pandas
 requests
 beautifulsoup4
 sqlalchemy
+flask
+flask-sqlalchemy

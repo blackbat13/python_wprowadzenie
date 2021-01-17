@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{%- for message in get_flashed_messages() %}
+{{ message }}
+{%- endfor %}
+<table>
+    <thead>
+    <tr>
+        <th>PlaylistId</th>
+        <th>Name</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    {% for playlist in playlists %}
+    <tr>
+        <td>{{ playlist.PlaylistId }}</td>
+        <td>{{ playlist.Name }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<a href="{{ url_for('new') }}">Add new</a>
+</body>
+</html>
