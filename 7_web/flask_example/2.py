@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 # W endpointach możemy także podawać parametry
-@app.route("/hello/<name>")
+@app.route("/hello/<name>/ab")
 def hello_name(name):
     return f"Hello {name}"
 

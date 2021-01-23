@@ -7,9 +7,13 @@ app = Flask(__name__)
 
 # Aplikacja Flask składa się głównie z metod odpowiadających poszczególnym endpointom
 @app.route('/')
-@app.route('/hello')
 def hello_world():
-    return "Hello World"
+    return "Witaj!"
+
+
+@app.route('/hello/')
+def hello():
+    return "<h1>Hello</h1>"
 
 
 if __name__ == "__main__":

@@ -8,3 +8,11 @@ sqlalchemy
 flask
 flask-sqlalchemy
 django
+seaborn
+scipy
+statsmodels
+sklearn
+networkx
+keras
+tensorflow
+imageio
