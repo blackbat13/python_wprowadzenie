@@ -4,3 +4,5 @@ Ciekawe linki:
 - https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 - https://github.com/dimgold/pycon_social_networkx
 - https://github.com/fchollet/deep-learning-with-python-notebooks
+- https://thecleverprogrammer.com/2020/11/27/machine-learning-algorithms-with-python/
+- https://www.kaggle.com/
