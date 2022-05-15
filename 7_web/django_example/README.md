@@ -1,4 +1,4 @@
-Przykładowa aplikacja django oparta na tutorialu: https://docs.djangoproject.com/en/3.0/intro/tutorial01/
+Przykładowa aplikacja django oparta na tutorialu: https://docs.djangoproject.com/en/4.0/intro/tutorial01/
 
 ### Instrukcja:
 - Uruchomienie: `python manage.py runserver`
